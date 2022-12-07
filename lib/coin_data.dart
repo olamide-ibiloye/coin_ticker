@@ -1,4 +1,5 @@
 import 'networking.dart';
+import 'api_key.dart';
 
 const List<String> currenciesList = [
   'AUD',
@@ -31,7 +32,7 @@ const List<String> cryptoList = [
 ];
 
 const coinAPIURL = 'https://rest.coinapi.io/v1/exchangerate';
-const apiKey = '18416B0B-6383-4056-AE00-92EC3A7DE579';
+
 
 
 class CoinData {
